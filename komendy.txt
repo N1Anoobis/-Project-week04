@@ -1,0 +1,4 @@
+node_modules/.bin/autoprefixer-cli -o main.prefixed.css style.css
+dziala ale style.css musi byc w tym samum folerze co index.html
+
+...................................................................

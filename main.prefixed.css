@@ -1,12 +1,15 @@
 body {
     background-color: #ddd;
+    display: -ms-flexbox;
     display: flex;
 }
 
 .container {
     margin: auto;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -ms-flex-direction: column;
+        flex-direction: column;
     max-width: 400px;
 }
 
@@ -28,6 +31,7 @@ p {
 }
 
 h5 {
+    display: -ms-grid;
     display: grid;
     transform: rotate(20deg);
 
