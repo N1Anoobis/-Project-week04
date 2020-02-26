@@ -1,7 +1,10 @@
+body {
+    background-color: #ddd;
+}
+
 .container {
     display: flex;
     flex-direction: column;
-    background-color: #ddd;
 }
 
 h1,
