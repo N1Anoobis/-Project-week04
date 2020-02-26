@@ -1,10 +1,13 @@
 body {
     background-color: #ddd;
+    display: flex;
 }
 
 .container {
+    margin: auto;
     display: flex;
     flex-direction: column;
+    max-width: 400px;
 }
 
 h1,
